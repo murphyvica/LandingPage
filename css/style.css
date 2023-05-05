@@ -5,13 +5,17 @@ body {
 }
 
 h1 {
-    color: yellow;
+    color: #ffd700;
     text-align: center;
     font-size: 65px;
 }
 
+.subtitle {
+    font-size: 40px;
+}
+
 h2 {
-    color: yellow;
+    color: #ffd700;
     text-align: center;
 }
 
@@ -20,9 +24,10 @@ h2 {
 }
 
 h3 {
-    color: yellow;
+    color: #ffd700;
     text-align: center;
     margin-top: 3rem;
+    font-size: x-large;
 }
 
 img {
@@ -108,8 +113,6 @@ li {
   }
 
   .team-pic {
-    width: 60%
+    width: 80%
   }
-  
-  
   
