@@ -71,7 +71,7 @@ li {
   }
   
   .image-container img {
-    width: 100%;
+    width: 95%;
     height: auto;
   }
   
@@ -82,7 +82,7 @@ li {
     width: 100%;
     text-align: center;
     font-size: 18px;
-    font-weight: bold;
+    font-weight: 200;
     margin: 0;
     padding: 10px;
     background-color: rgba(0,0,0,0.5);
@@ -99,8 +99,9 @@ li {
   .paragraph-row p {
     width: 30%;
     margin: 10px;
-    text-align: center;
-    font-size: 13px;
+    text-align: left;
+    font-size: 15px;
+    font-weight: 200;
   }
 
   .image-stack {
@@ -111,8 +112,8 @@ li {
   }
   
   .image-stack img {
-    margin: 5px;
-    width: 100%;
+    margin: 10px;
+    width: 75%;
   }
 
   .team-pic {
@@ -166,4 +167,34 @@ li {
   }
 
 
+  .table-container {
+    padding: 20px; /* Adjust the padding as needed */
+  }
+  
+  .bordered-table {
+    border: 1px solid #FFFFFF; /* White border */
+    border-collapse: collapse;
+    width: 100%;
+    color: white;
+    table-layout: fixed; /* Added property for equal column width */
 
+  }
+  
+  .bordered-table td {
+    border: 1px solid #FFFFFF; /* White border */
+    padding: 10px;
+    text-align: center;
+    background: none;
+    width: 20%; /* Set equal width for each column */
+    line-height: 1.5rem;
+    font-weight: 200;
+  }
+
+  .cols {
+    background-color: #DAA520;
+  }
+
+  .benefits {
+    width: 75%;
+  }
+  
