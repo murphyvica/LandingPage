@@ -6,28 +6,31 @@ body {
 
 h1 {
     color: #ffd700;
-    text-align: center;
-    font-size: 65px;
+    text-align: left;
+    font-size: 80px;
+    padding-left: 2rem;
+    font-weight: 400;
 }
 
 .subtitle {
     font-size: 40px;
+    font-weight: 200;
 }
 
 h2 {
     color: #ffd700;
-    text-align: center;
+    text-align: left;
+    padding-left: 2rem;
 }
 
-.names {
-    font-size: 20px;
-}
 
 h3 {
     color: #ffd700;
-    text-align: center;
+    text-align: left;
     margin-top: 3rem;
     font-size: x-large;
+    padding-left: 2rem;
+    font-weight: 400;
 }
 
 img {
@@ -42,7 +45,7 @@ p {
     color: white;
     margin-left: 3rem;
     margin-right: 3rem;
-    text-align: center;
+    text-align: left;
 }
 
 li {
@@ -113,6 +116,54 @@ li {
   }
 
   .team-pic {
-    width: 80%
+    width: 80%;
+  }
+
+  .logo {
+    width: 500px;
+    padding: 2rem;
+    display: inline-block;
+    vertical-align: top;
+  }
+
+  .tile {
+    padding: 2rem;
+    display: inline-block;
+    vertical-align: top;
+    width: 300px;
   }
   
+  
+  .team-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+  }
+  
+  .team-container img {
+    width: calc(20% - 20px); 
+    object-fit: cover; 
+  } 
+
+  a {
+    color: lightblue;
+    font-size: 20px;
+    font-weight: 200;
+  }
+
+  .benefits li {
+    padding-bottom: 20px;
+  }
+
+  .statement {
+    font-size: large;
+    font-weight: 500;
+  }
+
+  p {
+    line-height: 2;
+    font-size: 18px;
+  }
+
+
+
